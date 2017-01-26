@@ -1,0 +1,34 @@
+body {
+  background: #ababab;
+  margin-top: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Playball', cursive;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+p {
+  font-size: small;
+}
+
+#break, #session {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: xx-large;
+}
+
+#addSession, #minusSession, #addBreak, #minusBreak {
+  cursor: pointer;
+}
+
+#progressBar {
+  margin: 20px auto;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}

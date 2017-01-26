@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playball|Raleway" type="text/css" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1>Pomodoro Clock</h1>
+        <div id="progressBar">
+        </div>
+        <h2 id="title"></h2>
+        <h3 id="timer"></h3>
+        <div class="row">
+            <div class="col-xs-6">
+                <p>Session Length</p>
+                <h4>
+        <span id="minusSession" class="glyphicon glyphicon-minus timerMins"></span>
+        <span id="session"></span>
+        <span id="addSession" class="glyphicon glyphicon-plus timerMins"></span>
+      </h4>
+            </div>
+            <div class="col-xs-6">
+                <p>Break Length</p>
+                <h4>
+        <span id="minusBreak" class="glyphicon glyphicon-minus timerMins"></span>
+        <span id="break"></span>
+        <span id="addBreak" class="glyphicon glyphicon-plus timerMins"></span>
+      </h4>
+            </div>
+        </div>
+        <input type="button" id="timerStart" value="Start">
+        <input type="button" id="timerStop" value="Stop">
+    </div>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="./pomodoro.js"></script>
+</body>
+
+</html>
